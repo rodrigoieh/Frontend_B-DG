@@ -1,0 +1,43 @@
+.home{
+   
+   background-color: #1C294B;
+    width: 100%;
+    padding-top: 250px;
+    position: relative;
+}
+
+.home::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
+  
+  background-size: contain;
+  background: url("./../about-us/assets/illustration-elements_second-gradient.svg") 100% 0%
+    no-repeat;
+  
+}
+
+
+
+
+@media (max-width: 600px) {
+  .home{
+    padding-top: 200px;
+}
+.home::after {
+
+  background: url("./../about-us/assets/illustration-elements_mobile-home-gradient\ \(1\).svg") 100% 0%
+    no-repeat;
+  
+}
+}
+
+@media (max-width: 400px) {
+  .home{
+    padding-top: 150px;
+}
+
+}

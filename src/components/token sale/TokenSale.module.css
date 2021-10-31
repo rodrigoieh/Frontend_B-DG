@@ -1,0 +1,329 @@
+.token_sale {
+      padding-top: 150px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 5rem;
+    background-color: #1C294B;
+    position: relative;
+}
+.token_sale::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
+  
+  background-size: contain;
+  background: url("./../about-us/assets/illustration-elements_second-gradient.svg") 100% 0%
+    no-repeat;
+  
+}
+
+
+.token_sale_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.token_sale_heading {
+margin-bottom: 2rem;
+z-index: 1;
+}
+
+.token_sale_heading p{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Kanit', sans-serif;
+}
+
+.banner_btn {
+z-index: 1;
+display: flex;
+margin-bottom: 2rem;
+}
+.banner_btn button{
+width: 350px;
+padding: .7rem 0;
+border-radius: 20px;
+ background: transparent;
+ border: 1px solid white ;
+ color: white;
+ font-size: 20px;
+font-weight: 800;
+margin: 0 .5rem;
+cursor: pointer;
+}
+.banner_btn button:hover{
+background: linear-gradient(90deg,#86B3E1  0%, #E37CAE  60%, #ED9E7F 95%);
+}
+ 
+.tokenomics {
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenomics_heading {
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.tokenomics_heading p {
+    font-size: 30px;
+    font-weight: 800;
+    background:linear-gradient(90deg,#86B3E1 0% , #E37CAE 60%, #ED9E7F 95% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.tokenomics_data {
+z-index: 1;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+   
+}
+.item img {
+    height: 25px;
+    margin-left: .5rem;
+}
+.item p{
+    color: white;
+    margin: 0 .2rem;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.tokenomics_progress {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.progress_item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: .7rem 0;
+    z-index: 1;
+}
+
+.progress_item_text{
+display: flex;
+align-items: center;
+width: 45%;
+justify-content: space-between;
+}
+
+.progress_item_text p {
+    color: white;
+    font-size: 14px;
+
+}
+
+.progress_item_text p:nth-child(2){
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.progress_item_bar {
+    display: flex;
+    width: 50%;
+}
+
+.my_progress {
+    width: 100%;
+    background: #11172D !important;
+   
+}
+.my_progress2 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress3 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress4 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress5 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress6 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress7 {
+    width: 100%;
+      background: #11172D !important;
+   
+}
+.my_progress div {
+    background:#89B4E3!important;
+}
+.my_progress2 div {
+    background:#A2A3D2!important;
+}
+.my_progress3 div {
+    background:#C091C1!important;
+}
+.my_progress4 div {
+    background:#D073A3!important;
+}
+.my_progress5 div {
+    background:#E785A3!important;
+}
+.my_progress6 div {
+    background:#EB9689!important;
+}
+.my_progress7 div {
+    background:#EE9F7F!important;
+}
+.whitepaper_download {
+    display: flex;
+    margin: 4rem 0;
+    background: linear-gradient(90deg,#86B3E1 0% , #E37CAE 60%, #ED9E7F 95%);
+     z-index: 1;
+    justify-content: space-between;
+    padding: .7rem;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.whitepaper_download p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.whitepaper_download a {
+    text-decoration: none;
+}
+
+.whitepaper_download button{
+    border-radius: 50px;
+    border: none;
+    padding: .7rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .whitepaper_download{
+        display: flex;
+      
+    }
+    
+    
+}
+
+@media (max-width: 750px) {
+    .banner_btn {
+display: flex;
+flex-direction: column;
+}
+.banner_btn button{
+margin: .5rem 0;
+}
+}
+
+
+
+@media (max-width: 650px) {
+    .progress_item {
+    
+    flex-direction: column;
+}
+.progress_item_text{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.progress_item_bar{
+    width: 100%;
+}
+
+.tokenomics_heading p{
+      background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 80%);
+  -webkit-background-clip: text;
+}
+}
+@media (max-width: 600px) {
+     .token_sale::after {
+
+  background: url("./../about-us/assets/illustration-elements_mobile-home-gradient\ \(1\).svg") 100% 0%
+    no-repeat;
+      
+  
+}
+}
+
+@media (max-width: 500px) {
+    .whitepaper_download{
+        display: flex;
+      padding: 0;
+    }
+
+    .whitepaper_download p{
+        display: none;
+    }
+    .whitepaper_download a {
+        width: 100%;
+    }
+    .whitepaper_download button{
+       
+    width: 100%;
+    justify-content: center;
+}
+}
+@media (max-width: 400px) {
+    .token_sale{
+        padding-top: 100px;
+    }
+     .banner_btn button{
+        width: 100%;
+    }
+   
+}
+
+
+
+@media (max-width: 374px) {
+    .banner_btn button{
+
+ font-size: 16px;
+
+}
+.banner_text {
+margin-bottom: 4rem;
+
+}
+}
+@media (max-width: 300px) {
+    .item p{
+
+    font-size: 12px;
+  
+}
+}

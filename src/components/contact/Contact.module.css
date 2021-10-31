@@ -1,0 +1,452 @@
+.contact {
+  padding-top: 150px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5rem;
+  background-color: #1c294b;
+  position: relative;
+}
+
+.contact::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-size: contain;
+  background: url(./../about-us/assets/illustration-elements_second-gradient.svg) 100% 0%
+    no-repeat;
+ 
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_heading {
+ margin-bottom: 4rem;
+
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+.contact_heading p{
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+.contact_content_main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.where {
+
+}
+
+.where_content {
+display: flex;
+flex-direction: column;
+}
+.where_heading {
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+.where_heading h6 {
+    font-size: 16px;
+display: flex;
+align-items: center;
+color: white;
+text-transform: uppercase;
+font-weight: 300;
+font-family: 'Kanit', sans-serif;
+}
+.where_heading svg {
+    margin-left: .5rem;
+}
+
+.where_heading p {
+      font-size: 30px;
+
+        font-weight: 800;
+  font-size: 30px;
+    background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kanit', sans-serif;
+}
+
+.where_location{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.where_location p{
+    color: white;
+    margin: .5rem 0;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+
+.where_map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+.where_map iframe{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.email{
+    margin: 7rem 0;
+    display: flex;
+}
+
+.email_content {
+    display: flex;
+}
+
+.email_heading {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.email_heading svg {
+    margin-left: .5rem;
+}
+.email_heading h6 {
+       font-size: 16px;
+display: flex;
+align-items: center;
+color: white;
+text-transform: uppercase;
+font-family: 'Kanit', sans-serif;
+font-weight: 300;
+}
+
+.email_heading p {
+    font-size: 30px;
+    color: white;
+        font-weight: 800;
+  font-size: 30px;
+background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kanit', sans-serif;
+}
+
+.email_form {
+    display: flex;
+    width: 100%;
+
+}
+
+.email_form form {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.email_form form input{
+    background: #11172E;
+    margin: .5rem 0;
+    padding: .7rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+outline: none;
+}
+
+.email_form input:active {
+
+}
+
+.email_form form textarea{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background: #11172E;
+    border: none;
+    border-radius: 20px;
+    padding: .7rem;
+    outline: none;
+     color: white;
+}
+
+.email_form form button{
+    margin-top: .5rem;
+    background: transparent;
+    border: 1px solid white;
+    padding: .7rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.email_form form button:hover{
+    background: linear-gradient(90deg,#86B3E1 0% , #E37CAE 60%, #ED9E7F 95% 130%);
+}
+.join{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.join_heading {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+
+.join_heading svg {
+    margin-left: .5rem;
+}
+.join_heading h6 {
+       font-size: 16px;
+display: flex;
+align-items: center;
+color: white;
+text-transform: uppercase;
+font-family: 'Kanit', sans-serif;
+font-weight: 300;
+}
+
+.join_heading p {
+    font-size: 30px;
+    color: white;
+        font-weight: 800;
+  font-size: 30px;
+  background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.join_content {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+
+.join_socials{
+   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+.join_socials a {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+.join_socials img {
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.join_socials p {
+    color: white;
+
+}
+
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+.newsletter_heading {
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.newsletter_heading p {
+    font-size: 30px;
+    color: white;
+        font-weight: 800;
+  font-size: 30px;
+ background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.newsletter_content {
+display: flex;
+width: 100%;
+}
+.left_content {
+    width: 48%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.left_content p{
+    margin: .5rem 0;
+    color: white;
+}
+
+.right_content {
+    margin-left: 2%;
+     width: 48%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.right_content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Kanit', sans-serif;
+}
+
+.right_content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.right_content form input {
+    padding: .7rem;
+  
+  
+    background: #11172E;
+  
+    border: none;
+    margin: .5rem 0;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+}
+.right_content form button{
+      margin-top: .5rem;
+    background: transparent;
+    border: 1px solid white;
+    padding: .7rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.right_content form button:hover{
+background: linear-gradient(90deg,#86B3E1 0% , #E37CAE 60%, #ED9E7F 95% 130%);
+}
+
+@media (max-width: 959px) {
+    .where_map{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+    .newsletter_content {
+display: flex;
+width: 100%;
+flex-direction: column-reverse;
+}
+
+.left_content{
+    width: 100%;
+    margin-right: 0;
+    margin-top: 2rem;
+}
+.right_content{
+    width: 100%;
+    margin-left: unset;
+}
+    
+}
+
+
+@media (max-width: 600px) {
+    .contact::after {
+
+  background: url("./../about-us/assets/illustration-elements_mobile-home-gradient\ \(1\).svg") 100% 0%
+    no-repeat;
+
+}
+.team_heading p{
+ background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 20%);
+  -webkit-background-clip: text;
+}
+.about_heading{
+  margin-bottom: 1rem;
+}
+
+}
+@media (max-width: 450px) {
+    .contact{
+        padding-top: 100px;
+    }
+    .contact_heading{
+        margin-bottom: 2rem;
+    }
+    .where_location{
+        margin-top: 1rem;
+    }
+    .email{
+        margin: 5rem 0;
+    }
+}
+@media (max-width: 320px) {
+    .contact_heading p{
+        font-size: 30px;
+    }
+    .where_heading p{
+        font-size: 25px;
+    }
+    .where_heading h6{
+        font-size: 12px;
+    }
+    .email_heading h6{
+        font-size: 12px;
+    }
+    .email_heading p{
+         font-size: 25px;
+    }
+    .join_heading h6{
+        font-size: 12px;
+    }
+    .join_heading p{
+        font-size: 25px;
+    }
+    .join_socials img {
+height: 60px;
+    }
+    .join_socials p{
+        font-size: 12px;
+    }
+    .right_content p{
+        font-size: 16px;
+    }
+    .contact{
+        padding-bottom: 1rem;
+    }
+    .newsletter{
+        padding-bottom: 5rem;
+    }
+}

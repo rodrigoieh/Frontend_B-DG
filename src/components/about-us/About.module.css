@@ -1,0 +1,272 @@
+.about {
+  padding-top: 150px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5rem;
+  background-color: #1c294b;
+  position: relative;
+}
+
+/* .about::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-size: contain;
+  background: url('./assets/illustration-elements_second-gradient.svg') 100% 0%
+    no-repeat;
+
+} */
+.about_underlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.about_mobile_underlay {
+  display: none;
+}
+.about_content {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.about_heading {
+  margin-bottom: 4rem;
+
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+.about_heading p {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+   
+font-family: 'Kanit', sans-serif;
+ 
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+}
+
+.team_heading {
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+.team_heading p {
+  
+font-family: 'Kanit', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team_profiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.team_profile {
+  z-index: 1;
+  display: flex;
+ align-items: center;
+  padding: 1rem 0;
+  border-bottom: 0.1px solid white;
+  color: white;
+}
+.team_profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.team_img {
+  margin-right: 1rem;
+}
+
+.team_profile h5{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 800;
+  color: white;
+   
+font-family: 'Kanit', sans-serif;
+    
+}
+
+.team_profile h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+  color: white;
+   
+font-family: 'Kanit', sans-serif;
+}
+.team_profile p{
+    font-size: 16px;
+    font-weight: 200;
+  color: white;
+   
+font-family: 'Kanit', sans-serif;
+}
+.my_modal {
+display: flex;
+align-items: center;
+}
+.my_dialog{
+ z-index: 3;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.431);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.modal_img {
+  width: 180px;
+  height: 180px;
+  background:  linear-gradient(90deg, #8C97C4, #E4918B 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.modal_img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%
+}
+
+.modal_sm {
+  display: flex;
+  margin-top: .5rem;
+ 
+}
+
+.modal_sm a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  margin: 0rem 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_sm a:first-child{
+  margin-left: 0;
+}
+
+.modal_sm a svg {
+  color: white;
+  font-size: 1.2rem;
+}
+.partners{
+  z-index:  1;
+}
+.partners_heading {
+  margin-top: 4rem;
+}
+
+.partners_content {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.partners_content a {
+  border-right: .3px solid #ffffff;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+  padding: 0 1rem ;
+  
+}
+.partners_content a:hover{
+  transition: .3s all ease-in-out;
+  transform: scale(1.03);
+}
+.partners_content a img {
+  height: 80px;
+  margin-right: 1rem;
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .about_underlay{
+    display: none;
+  }
+  .about_mobile_underlay {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+.team_heading p{
+ background: linear-gradient(45deg,#8BB0DE , #D783B5, #ED9E7F 80%);
+  -webkit-background-clip: text;
+}
+.about_heading{
+  margin-bottom: 1rem;
+}
+
+.partners_content  {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.partners_content a {
+  border: none;
+  border-bottom: .3px solid white;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 450px) {
+  .about{
+    padding-top: 100px;
+  }
+  .team_profile{
+    flex-direction: column;
+    align-items: unset;
+  }
+  .team_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: .5rem;
+  }
+}
+@media (max-width: 320px) {
+  .team_profile h5{
+    font-size: 1rem;
+  }
+  .team_profile h6{
+font-size: 14px;
+  }
+  .team_profile p{
+    font-size: 12px;
+  }
+}
