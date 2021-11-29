@@ -74,7 +74,7 @@ const What = () => {
                 <span className={styles.number}>
                   <img src={number2} alt="" />
                 </span>
-                Delivering a Search Engine that is respectful of user's right to data privacy and yet profitable for advertisers;
+                Delivering an infrastructure to allow Search Engines to enhance the users’ privacy while increasing profitability and efficiency;
               </Typography>
             </div>
           </Grid>
@@ -91,7 +91,7 @@ const What = () => {
                 <span className={styles.number}>
                   <img src={number2} alt="" />
                 </span>
-               Delivering a Search Engine that is respectful of user's right to data privacy and yet profitable for advertisers;
+                Delivering an infrastructure to allow Search Engines to enhance the users’ privacy while increasing profitability and efficiency;
               </Typography>
             </div>
             <div

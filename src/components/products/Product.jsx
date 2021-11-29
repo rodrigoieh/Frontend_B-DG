@@ -105,24 +105,20 @@ const Product = () => {
               </div>
               <div className={styles.creating_content_tab}>
                 <div className={styles.horizontal_typo}>
-                  <Typography>MINIDATA RESEARCH</Typography>
+                  <Typography>EARLY DATAGEN INFRASTRUCUTRE & MINIDATA RESEARCH</Typography>
                 </div>
                 <Typography>
-                  A general blockchain-based browser able to search any kind of
-                  information in the www. Blockchain technology allows the
-                  search engine:
+                The Early Datagen infrastructure is a blockchain-based infrastructure providing to web browsers and searching tools: 
                   <ul>
                     <li>
-                      to enhance users' data and privacy protection, thanks to
-                      an incorruptible algorithm that safeguards users' privacy
-                      with encryption;
+                    decentralized cloud computing, in the most efficient, transparent and flexible possible way, thanks to our native customized blockchain;
                     </li>
                     <li>
-                      to target ads using a special certificate that disconnects
-                      the searching device from the IP
+                    the ability to exit from the Privacy vs Profitability dilemma by using the blockchain technology to decouple the users’ personal data from the advertising analytics.
                     </li>
                   </ul>
                 </Typography>
+                <Typography>Minidata Research will be a proprietary specialistic search engine created both as a proof-of-concept to assess the features of the infrastructure and as a full functional product.</Typography>
               </div>
               <div className={styles.creating_content_tab}>
                 <div className={styles.horizontal_typo}>
@@ -172,7 +168,7 @@ const Product = () => {
                    
                   </div>
                   <div className={styles.stage_content_lower}>
-                  <Typography>April 2021 Website- Landingpage. </Typography>
+                  <Typography>April 2021 Website- Landing page. </Typography>
                   </div>
                 </div>
               </div>
@@ -183,12 +179,12 @@ const Product = () => {
                 </div>
                 <div className={styles.stage_content}>
                   <div className={styles.stage_content_upper}>
-                    <Typography>October 2021 Token Launch</Typography>
+                    <Typography>November/December 2021 Token Launch</Typography>
                   
                   </div>
                   <div className={styles.stage_content_lower}>
                    
-                    <Typography>February 2021 IDO/IEO </Typography>
+                    <Typography>March/April 2022 IDO/IEO </Typography>
                   </div>
                 </div>
               </div>
@@ -262,10 +258,10 @@ const Product = () => {
                 </div>
                 <div className={styles.stage_content_sm}>
                   <div className={styles.stage_content_upper_sm}>
-                    <Typography>October 2021 Token Launch</Typography>
+                    <Typography>November/December 2021 Token Launch</Typography>
                   </div>
                   <div className={styles.stage_content_lower_sm}>
-                     <Typography>February 2021 IDO/IEO </Typography>
+                     <Typography>March/April 2022 IDO/IEO </Typography>
                   </div>
                 </div>
               </div>

@@ -1,19 +1,12 @@
 import angela from './team-images/angela.jpeg'
 import luca from './team-images/luca.jpeg'
-import xiqian from './team-images/xiqian.jpeg'
-import jason from './team-images/json.jpeg'
-import aman from './team-images/aman.jpeg'
 import nicolo from './team-images/niccolo.jpeg'
-import dinh from './team-images/dinh.jpeg'
 import william from './team-images/william.jpeg'
 import giula from './team-images/giulia.png'
-import nagano from './team-images/nagano.svg'
 import ahmed from './team-images/ahmad.jpeg'
 import kay from './team-images/kay.jpeg'
 import jason2 from './team-images/jason.jpeg'
-import li from './team-images/li.jpg'
-import abe from './team-images/abe.jpeg'
-import ren from './team-images/ren.jpeg'
+import ren from './team-images/ren2.jpeg'
 
 
 
@@ -39,24 +32,15 @@ const profiles = [
     id: 2,
   },
   {
-    image:abe,
-    name: "Abe Sinjiro",
-    post: "Head of development",
+    image:ren,
+    name: "Ren Okamoto",
+    post: "Senior Blockchain Developer",
     quote: "",
-    linkedInUrl: "https://linkedin.com/in/abe-sinjiro",
-    otherUrl: "https://github.com/abe-sinjiro",
-    id: 3,
+    linkedInUrl: "https://www.linkedin.com/in/ren-okamoto-140a97224",
+    otherUrl: "https://github.com/fantasy2345",
+    id: 15,
   },
-  
-  {
-    image:aman,
-    name: "Aman Shaikh",
-    post: "Blockchain Developer - Head of technical recruitment",
-    quote: "Hard-working and driven individual full of happiness",
-    linkedInUrl: "https://linkedin.com/in/aman-s-313830167",
-    otherUrl: "https://github.com/atwanskas",
-    id: 5,
-  },
+
   {
     image: nicolo,
     name: "Niccolò Baldini",
@@ -65,6 +49,16 @@ const profiles = [
     linkedInUrl: "https://linkedin.com/in/niccol%C3%B3-baldini-0400baa9",
     otherUrl: "https://github.com/viac92",
     id: 6,
+  },
+  {
+    image: kay,
+    name: "Alawiye Olukayode",
+    post: "Web Developer",
+    quote:
+      "Full-stack developer Fueled by high energy levels and boundless enthusiasm",
+    linkedInUrl: "https://linkedin.com/in/alawiye-olukayode-aa365298",
+    otherUrl: "https://github.com/oluseyi-frontend?tab=repositories",
+    id: 12,
   },
   
   {
@@ -95,16 +89,7 @@ const profiles = [
     otherUrl: "http://www.ahmedabdelal.com/",
     id: 11,
   },
-  {
-    image: kay,
-    name: "Alawiye Olukayode",
-    post: "Web Developer",
-    quote:
-      "Full-stack developer Fueled by high energy levels and boundless enthusiasm",
-    linkedInUrl: "https://linkedin.com/in/alawiye-olukayode-aa365298",
-    otherUrl: "https://github.com/oluseyi-frontend?tab=repositories",
-    id: 12,
-  },
+
   {
     image: jason2,
     name: "Jason Min",
@@ -115,26 +100,9 @@ const profiles = [
     otherUrl: "",
     id: 13,
   },
-  // {
-  //   image: li,
-  //   name: "Li YiChong ",
-  //   post: "Senior Blockchain Developer",
-  //   quote:
-  //     "I have good experience in smart contract development and dapp development. Also, I have a lot of experience in flutter mobile app development and Desktop app development",
-  //   linkedInUrl: "https://www.linkedin.com/in/li-yichong-905a66207/",
-  //   otherUrl: "https://github.com/liyichong94615",
-  //   id: 14,
-  // },
+ 
   
-  {
-    image:ren,
-    name: "Ren Okamoto",
-    post: "Senior Blockchain Developer",
-    quote: "",
-    linkedInUrl: "",
-    otherUrl: "https://github.com/fantasy2345",
-    id: 15,
-  },
+ 
   
 ];
 

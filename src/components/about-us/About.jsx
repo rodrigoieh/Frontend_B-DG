@@ -9,7 +9,7 @@ import underlay from './assets/illustration-elements_second-gradient.svg'
 import mobile_underlay from './assets/illustration-elements_mobile-home-gradient (1).svg'
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import xeurope_logo from "./assets/xeurope.png";
-
+import r930 from './assets/r930.PNG'
 
 
 const About = () => {
@@ -94,6 +94,9 @@ const About = () => {
                 </a>
                 <a href="https://www.xeurope.eu/" target='_blank'>
                   <img src={xeurope_logo} alt="" />
+                </a>
+                <a href="https://r-930capital.com/" target='_blank'>
+                  <img src={r930} alt="" />
                 </a>
               </div>
             </div>

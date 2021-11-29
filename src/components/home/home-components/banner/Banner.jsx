@@ -13,6 +13,7 @@ const Banner = () => {
       >
         <Typography variant="h6">DATAGEN PROJECT</Typography>
         <Typography>Upgrading blockchain revolution</Typography>
+        <Typography>Journey to a decentralized cloud computing infrastructure</Typography>
       </div>
       <div  data-AOS="fade-right"
                 data-aos-delay="100"
