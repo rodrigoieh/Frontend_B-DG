@@ -7,7 +7,7 @@ import ahmed from './team-images/ahmad.jpeg'
 import kay from './team-images/kay.jpeg'
 import jason2 from './team-images/jason.jpeg'
 import ren from './team-images/ren2.jpeg'
-
+import casper from './team-images/casper.jpeg'
 
 
 
@@ -99,6 +99,17 @@ const profiles = [
     linkedInUrl: "https://linkedin.com/in/jason-min-93a868207/",
     otherUrl: "",
     id: 13,
+  },
+
+  {
+    image: casper,
+    name: "Casper Lu",
+    post: "Blockchain developer",
+    quote:
+      "",
+    linkedInUrl: "https://linkedin.com/in/casper-lu-4317b6218",
+    otherUrl: "https://github.com/developersuper",
+    id: 16,
   },
  
   
