@@ -1,0 +1,27 @@
+.sales_footer {
+display: flex;
+
+}
+
+
+.sales_footer_content {
+width: 50%;
+}
+
+.sales_footer_content p {
+    font-family: Kanit;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.01em;
+text-align: left;
+color: white;
+}
+
+
+@media (max-width: 720px) {
+    .sales_footer_content {
+        width: 100%;
+        }
+}

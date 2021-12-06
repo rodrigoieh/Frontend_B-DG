@@ -1,0 +1,27 @@
+.retail {
+    min-height: 100vh;
+     position: relative;
+     background-color: #1c294b;
+     overflow: hidden;
+     padding-bottom: 5rem;
+    
+     
+   }
+   
+   .retail_underlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+   }
+   .retail_mobile_underlay {
+     display: none;
+   }
+ 
+   .retail_content {
+     min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }

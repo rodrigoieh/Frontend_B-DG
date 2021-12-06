@@ -1,5 +1,5 @@
 import { Container } from "@material-ui/core";
-import React, {useContext, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import logo from "./assets/cube_grad.svg";
@@ -12,6 +12,7 @@ import { dataCentral } from "../context/DatagenContext";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 const {activeLink, setActiveLink} = useContext(dataCentral)
+
 
   const handleAsideOpen = () => {
     setOpen(!open);

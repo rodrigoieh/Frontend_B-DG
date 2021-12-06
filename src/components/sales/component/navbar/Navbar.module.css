@@ -1,0 +1,57 @@
+.navbar {
+
+
+
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+}
+
+
+.navbar_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet_info {
+display: flex;
+align-items: center;
+}
+
+.wallet_info button{
+    margin-right: 1rem;
+    padding: .7rem;
+    background-color: #1c294b;
+    color: white;
+    border: .1px solid rgba(255, 255, 255, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.navbar_content img{
+    height: 100px;
+}
+
+
+@media (max-width: 630px) {
+   
+    .navbar_content img {
+height: 70px;
+    }
+
+    .wallet_info {
+
+    }
+}
+
+@media (max-width: 520px) {
+     .navbar_content{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+    }
+
+}

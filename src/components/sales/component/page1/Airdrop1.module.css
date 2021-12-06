@@ -1,0 +1,139 @@
+.airdrop1 {
+display: flex;
+margin: 2rem 0;
+
+}
+.airdrop1_content {
+    display: flex;
+    flex-direction: column;
+    
+}
+.airdrop1_header{
+z-index: 2;
+margin-bottom: 60px;
+}
+
+.airdrop1_header p{
+    font-family: Kanit;
+font-size: 39px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0.01em;
+text-align: center;
+color: white;
+}
+
+.airdrop1_icons{
+    z-index: 2;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.airdrop1_icons .arrow img {
+    margin: 0 2rem;
+}
+.icon_div {
+    width: 198px;
+    height: 198px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1C294B;
+   
+    
+   
+}
+
+.icon_div img {
+    padding: 2rem;
+   
+}
+
+
+
+
+.airdrop1_btn{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+   
+}
+
+.airdrop1_btn button{
+  cursor: pointer;
+width: 289.29156494140625px;
+background: #1C294B;
+align-items: center;
+border: 1.28px solid #FFFFFF;
+font-family: Kanit;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+border-radius: 25px;
+
+}
+
+@media (max-width: 768px) {
+    .icon_div{
+        width: 120px;
+        height: 120px;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1C294B;
+    }
+    .airdrop1_btn button{
+        cursor: pointer;
+      width: 289.29156494140625px;
+      background: #1C294B;
+      align-items: center;
+      border: 1.28px solid #FFFFFF;
+      font-family: Kanit;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #FFFFFF;
+      border-radius: 25px;
+      
+      }
+}
+
+
+@media (max-width: 400px) {
+    .icon_div {
+        width: 80px;
+        height: 80px;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1C294B;
+    }
+
+    .icon_div img {
+        padding: 1rem;
+    }
+    .airdrop1_icons .arrow img {
+        margin: 0 1.5rem;
+        width: 50px;
+    }
+    .airdrop1_header p{
+      
+    font-size: 24px;
+ 
+    }
+}
